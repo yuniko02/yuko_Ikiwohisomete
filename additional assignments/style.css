@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.font-family{
+  font-family: yu-mincho-pr6, YuMincho, 游明朝, "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", HGS明朝E, "ＭＳ Ｐ明朝", serif;
+  font-weight: 400;
+}
+
+/* navi */
+header{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
+  /* position: relative; */
+}
+
+header img{
+  width: 90px;
+  position: absolute;
+  padding: 20px;
+}
+
+header nav{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  list-style: none;
+  display: inline-block;
+  letter-spacing: 3px;
+  font-style: 15px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+/* firstview */
+.firstview img{
+  width: 100%;
+}
+
+/* sns */
+.sns{
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.sns h1{
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+.sns-box{
+  display: flex;
+  justify-content: center;
+}
+
+.sns-link {
+  border: 1px solid #000;
+  text-decoration: none;
+  margin: 15px;
+  padding: 20px 10px;
+  width: 250px;
+}
+
+.sns-link-1{
+  text-decoration: none;
+  color: #000;
+}
+
+.sns-link img{
+  width: 15px;
+}
+
+.sns-link-2{
+  text-decoration: none;
+  color: #000;
+}
+
+/* trailer */
+.trailer h1{
+  text-align: center;
+  margin: 80px 0;
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+.trailer-boxes{
+  display: flex;
+  justify-content: center;
+}
+
+.trailer-box{
+  text-align: center;
+  margin: 0 20px;
+  margin-bottom: 80px;
+}
+
+.trailer iframe{
+  width: 450px;
+  height: 250px;
+}
+
+/* background */
+#background{
+  background: url(img/bridge.jpg) center/cover;
+  height: 800px;
+  background-attachment: fixed;
+}
+
+/* introduction */
+.introduction{
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.introduction img{
+  width: 600px;
+  height: 400px;
+}
+
+.introduction-box{
+  display: block;
+  margin-left: 50px;
+}
+
+.introduction-box h1{
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+  font-size: 19px;
+}
+
+.introduction-box h2{
+  font-size: 21px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.introduction p{
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+span{
+  color: #00b7de;
+}
+
+/* story */
+.story{
+  position: relative;
+}
+
+#story{
+  height: 480px;
+  width: 100%;
+  background: url(img/story-background.jpg) center/cover;
+  background-attachment: fixed;
+}
+
+.story-box{
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.story h1{
+  font-size: 19px;
+  margin-bottom: 25px;
+  letter-spacing: 5px;
+}
+
+.story p{
+  font-size: 17px;
+  width: 800px;
+}
+
+/* cast */
+.cast h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 19px;
+}
+
+.cast-boxes{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.cast-box{
+  text-align: center;
+  width: 500px;
+  background-color: #f4f4e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.cast-box h2{
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100px;
+  margin-top: 30px;
+
+}
+
+.cast-box h3{
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.cast-box h4{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cast-boxes-left{
+  display: flex;
+  justify-content: center;
+}
+
+.cast-box-photo{
+  margin: 15px;
+}
+
+.cast-box-photo img{
+  height: 150px;
+}
+
+.cast-name{
+  color: #00b7de;
+  font-size: 18px;
+  margin:10px 0;
+}
+
+.cast-detail{
+  font-size: 11px;
+}
+
+.story-button{
+  font-size: 16px;
+  background-color: #00b7de;
+  width: 200px;
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* GREEN */
+.hulu-green{
+  background-color: #66a933;
+  font-family: YakuHanJP, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+
+.hulu-green img{
+  width: 200px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  
+}
+
+.hulu-green h1{
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.hulu-green-boxes{
+  display: flex;
+  justify-content: center;
+}
+
+.hulu-green-box{
+  color: #66a933;
+  font-size: 24px;
+  text-align: center;
+  background-color: #fff;
+  height: 380px;
+  width: 250px;
+  border: 1px solid #66a933;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hulu-green-box:hover{
+  background-color: #66a933;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.hulu-green-under{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.hulu-green a{
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  width: 400px;
+  line-height: 80px;
+  text-decoration: none;
+  background: linear-gradient(#f19203,#Fc7817);
+  margin-bottom: 100px;
+}
+
+/* footer */
+footer{
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  line-height: 110px;
+  font-size: 12px;
+  font-family: YakuHanJP, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+}
